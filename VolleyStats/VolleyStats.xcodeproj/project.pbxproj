@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025069611C24A423009469FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025069601C24A423009469FA /* AppDelegate.swift */; };
+		025069631C24A423009469FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025069621C24A423009469FA /* ViewController.swift */; };
+		025069661C24A423009469FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025069641C24A423009469FA /* Main.storyboard */; };
+		025069691C24A423009469FA /* VolleyStats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 025069671C24A423009469FA /* VolleyStats.xcdatamodeld */; };
+		0250696B1C24A424009469FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0250696A1C24A424009469FA /* Assets.xcassets */; };
+		0250696E1C24A424009469FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0250696C1C24A424009469FA /* LaunchScreen.storyboard */; };
+		02AC31FA1C26437C00190F85 /* MatchSimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC31F91C26437C00190F85 /* MatchSimulationViewController.swift */; };
+		02AC31FE1C2643C500190F85 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC31FC1C2643C500190F85 /* PlayerCell.swift */; };
+		02E337081C2523E100AD8529 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E337071C2523E100AD8529 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0250695D1C24A423009469FA /* VolleyStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025069601C24A423009469FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		025069621C24A423009469FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		025069651C24A423009469FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		025069681C24A423009469FA /* VolleyStats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VolleyStats.xcdatamodel; sourceTree = "<group>"; };
+		0250696A1C24A424009469FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0250696D1C24A424009469FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0250696F1C24A424009469FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02AC31F91C26437C00190F85 /* MatchSimulationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchSimulationViewController.swift; sourceTree = "<group>"; };
+		02AC31FC1C2643C500190F85 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		02E337071C2523E100AD8529 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0250695A1C24A423009469FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025069541C24A423009469FA = {
+			isa = PBXGroup;
+			children = (
+				0250695F1C24A423009469FA /* VolleyStats */,
+				0250695E1C24A423009469FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0250695E1C24A423009469FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0250695D1C24A423009469FA /* VolleyStats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0250695F1C24A423009469FA /* VolleyStats */ = {
+			isa = PBXGroup;
+			children = (
+				025069601C24A423009469FA /* AppDelegate.swift */,
+				025069621C24A423009469FA /* ViewController.swift */,
+				025069641C24A423009469FA /* Main.storyboard */,
+				02E337071C2523E100AD8529 /* Player.swift */,
+				02AC31FC1C2643C500190F85 /* PlayerCell.swift */,
+				02AC31F91C26437C00190F85 /* MatchSimulationViewController.swift */,
+				0250696A1C24A424009469FA /* Assets.xcassets */,
+				0250696C1C24A424009469FA /* LaunchScreen.storyboard */,
+				0250696F1C24A424009469FA /* Info.plist */,
+				025069671C24A423009469FA /* VolleyStats.xcdatamodeld */,
+			);
+			path = VolleyStats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0250695C1C24A423009469FA /* VolleyStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025069721C24A424009469FA /* Build configuration list for PBXNativeTarget "VolleyStats" */;
+			buildPhases = (
+				025069591C24A423009469FA /* Sources */,
+				0250695A1C24A423009469FA /* Frameworks */,
+				0250695B1C24A423009469FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolleyStats;
+			productName = VolleyStats;
+			productReference = 0250695D1C24A423009469FA /* VolleyStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025069551C24A423009469FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = loganallen;
+				TargetAttributes = {
+					0250695C1C24A423009469FA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R8MGTW9Q8N;
+					};
+				};
+			};
+			buildConfigurationList = 025069581C24A423009469FA /* Build configuration list for PBXProject "VolleyStats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025069541C24A423009469FA;
+			productRefGroup = 0250695E1C24A423009469FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0250695C1C24A423009469FA /* VolleyStats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0250695B1C24A423009469FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0250696E1C24A424009469FA /* LaunchScreen.storyboard in Resources */,
+				0250696B1C24A424009469FA /* Assets.xcassets in Resources */,
+				025069661C24A423009469FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025069591C24A423009469FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AC31FE1C2643C500190F85 /* PlayerCell.swift in Sources */,
+				025069631C24A423009469FA /* ViewController.swift in Sources */,
+				025069611C24A423009469FA /* AppDelegate.swift in Sources */,
+				02AC31FA1C26437C00190F85 /* MatchSimulationViewController.swift in Sources */,
+				025069691C24A423009469FA /* VolleyStats.xcdatamodeld in Sources */,
+				02E337081C2523E100AD8529 /* Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		025069641C24A423009469FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025069651C24A423009469FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0250696C1C24A424009469FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0250696D1C24A424009469FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		025069701C24A424009469FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		025069711C24A424009469FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025069731C24A424009469FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VolleyStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unknown.VolleyStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		025069741C24A424009469FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VolleyStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.unknown.VolleyStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025069581C24A423009469FA /* Build configuration list for PBXProject "VolleyStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025069701C24A424009469FA /* Debug */,
+				025069711C24A424009469FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025069721C24A424009469FA /* Build configuration list for PBXNativeTarget "VolleyStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025069731C24A424009469FA /* Debug */,
+				025069741C24A424009469FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		025069671C24A423009469FA /* VolleyStats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				025069681C24A423009469FA /* VolleyStats.xcdatamodel */,
+			);
+			currentVersion = 025069681C24A423009469FA /* VolleyStats.xcdatamodel */;
+			path = VolleyStats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 025069551C24A423009469FA /* Project object */;
+}
